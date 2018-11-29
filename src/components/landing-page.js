@@ -9,11 +9,11 @@ export function LandingPage(props) {
     }
 
     return (
-        <main className="landing-page">
+        <section className="landing-page">
             <p>This app is meant to help you learn Spanish. It uses the spaced repetition technique to help you retain what you have learned.</p>
             <Link className="block" to="/login">Login</Link>
             <Link className="block" to="/register">Register</Link>
-        </main>
+        </section>
     );
 }
 

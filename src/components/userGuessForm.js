@@ -70,7 +70,7 @@ export class GuessForm extends React.Component {
           </button>
           <form className="guess-form" onSubmit={e => this.onSubmit(e)}>
             {error}
-            <p id="question" className="dashboard-protected-data">
+            <p id="question" className="dashboard-protected-data question">
               What does{' '}
               {this.props.protectedData[this.props.currentHead].spanish} mean?
             </p>

@@ -5,6 +5,7 @@
   --spanish-viridian: #007e5c;
   --spanish-yellow: #f9b613;
   --spanish-light-yellow: #fbca55;
+  --new-blue: #1BC4DE;
 }
 * {
   box-sizing: border-box;
@@ -22,21 +23,8 @@ html {
   padding: 0;
 }
 body {
-  background: #1e9600; /* fallback for old browsers */
-  background: -webkit-linear-gradient(
-    to bottom,
-    #ff0000,
-    #fff200,
-    #34ace0,
-    #1e9600
-  ); /* Chrome 10-25, Safari 5.1-6 */
-  background: linear-gradient(
-    to bottom,
-    #ff0000,
-    #fff200,
-    #34ace0,
-    #1e9600
-  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  background-image: url('../images/beachCalmHorizon.jpg');
+  background-color: #1e9600; /* fallback for old browsers */
   background-attachment: fixed;
   background-repeat: no-repeat;
   background-size: cover;
@@ -47,27 +35,14 @@ body {
   text-align: center;
   width: 100%;
 }
-#root {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  height: 100%;
-}
-#root {
-  flex: 1;
-  /* height: 100%; */
-  /* width: 100%; */
-}
 main {
-  display: flex;
-  flex-direction: column;
-}
-section {
-  /* background-color: #36ADDC; */
-  background-color: #61bfe4;
+  background-color: var(--new-blue);
   border: solid 1px black;
   border-radius: 4px;
+  display: flex;
+  flex-direction: column;
   margin: 0 16px;
+  margin-top: 20%;
 }
 
 h1 {
@@ -95,7 +70,7 @@ a:active {
 button {
   background-color: var(--phillipine-silver);
   border: 1px solid black;
-  border-radius: 4px;
+  border-radius: 1px;
   box-sizing: border-box;
   color: var(--sonic-dark-silver);
   height: 40px;
@@ -109,6 +84,7 @@ button:hover,
 button:active {
   background-color: var(--spanish-viridian);
   color: var(--phillipine-silver);
+  cursor: pointer;
 }
 form {
   padding: 5px;
@@ -122,7 +98,7 @@ input {
   background-color: #d5eef8;
   border: 1px solid var(--spanish-viridian);
   box-sizing: border-box;
-  border-radius: 4px;
+  border-radius: 1px;
   color: var(--sonic-dark-silver);
   font-size: 1.5rem;
   padding: 8px 4px;
@@ -154,25 +130,11 @@ input {
   cursor: pointer;
 }
 
-#logoutButton {
-  margin-right: 16px;
-  padding: 0 5px;
-  position: absolute;
-  right: 0;
-  top: 0;
-  width: auto;
-}
-#question {
-  background-color: #d5eef8;
-  border: solid 1px black;
-  border-radius: 4px;
-  padding: 16px 0;
-}
 
 
 @media screen and (min-width: 800px) {
-  #root {
-    margin: 0 auto;
+  main {
+    margin: 20% auto 0 auto;
     width: 800px;
   }
   button {
@@ -187,13 +149,9 @@ input {
     padding: 8px 4px;
     width: 250px;
   }
-  #question {
-    background: none;
-    border: none;
+  .question {
     display: inline;
-    margin: 1rem;
     padding: 0;
-    /* width: 400px; */
   }
 
 }

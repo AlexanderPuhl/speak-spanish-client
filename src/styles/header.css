@@ -1,0 +1,39 @@
+header {
+  background-color: var(--new-blue);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 100%;
+}
+
+.logo {
+  align-self: center;
+  height: 50px;
+  width: 50px;
+}
+
+
+
+.logoutButton {
+  all: unset;
+  padding: 10px;
+  font-size: 18px;
+  position: absolute;
+  right: 10px;
+  top: 15px;
+  width: auto;
+}
+.logoutButton:hover, .logoButton:active {
+  background-color: black;
+  color: var(--new-blue);
+  cursor: pointer;
+}
+
+@media screen and (min-width: 625px) {
+  header {
+    flex-direction: row;
+  }
+  .logo {
+    margin-right: 10px;
+  }
+}
