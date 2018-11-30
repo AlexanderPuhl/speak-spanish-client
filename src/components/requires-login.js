@@ -10,7 +10,6 @@ export default () => Component => {
         } else if (!loggedIn || error) {
             return <Redirect to="/" />;
         }
-
         return <Component {...passThroughProps} />;
     }
 
@@ -22,6 +21,5 @@ export default () => Component => {
         loggedIn: state.auth.currentUser !== null,
         error: state.auth.error
     });
-
     return connect(mapStateToProps)(RequiresLogin);
 };
