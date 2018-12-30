@@ -6,11 +6,11 @@
 Spanish app is a responsive full-stack application that allows users to learn Spanish through a technique called "Spaced Repetition". As the user answers questions correctly, the algorithm will wait a little longer before presenting that particular question again. The data structure that stores the words is a linked list.
 
 ## Screenshots :camera:
-| <img alt="Landing Page" src="https://github.com/thinkful-ei23/Spanish-Client-Alex-David/blob/master/assets/Landing_Page.jpg" width="350"> | <img alt="Registration Page" src="https://github.com/thinkful-ei23/Spanish-Client-Alex-David/blob/master/assets/Registration_Page.jpg" width="350"> | <img alt="Login Page" src="https://github.com/thinkful-ei23/Spanish-Client-Alex-David/blob/master/assets/Login_Page.jpg" width="350"> |
+| <img alt="Landing Page" src="https://github.com/AlexanderPuhl/speak-spanish-client/blob/master/assets/Landing_Page.jpg" width="350"> | <img alt="Registration Page" src="https://github.com/AlexanderPuhl/speak-spanish-client/blob/master/assets/Registration_Page.jpg" width="350"> | <img alt="Login Page" src="https://github.com/AlexanderPuhl/speak-spanish-client/blob/master/assets/Login_Page.jpg" width="350"> |
 |:---:|:---:|:---:|
 | Landing Page | Registration Page | Login Page |
 
-| <img alt="Dashboard Page" src="https://github.com/thinkful-ei23/Spanish-Client-Alex-David/blob/master/assets/Dashboard_Page.jpg" width="350"> | <img alt="Correct Answer" src="https://github.com/thinkful-ei23/Spanish-Client-Alex-David/blob/master/assets/Question_Correct.jpg" width="350"> | <img alt="Incorrect Answer" src="https://github.com/thinkful-ei23/Spanish-Client-Alex-David/blob/master/assets/Question_Incorrect.jpg" width="350"> |
+| <img alt="Dashboard Page" src="https://github.com/AlexanderPuhl/speak-spanish-client/blob/master/assets/Dashboard_Page.jpg" width="350"> | <img alt="Correct Answer" src="https://github.com/AlexanderPuhl/speak-spanish-client/blob/master/assets/Question_Correct.jpg" width="350"> | <img alt="Incorrect Answer" src="https://github.com/AlexanderPuhl/speak-spanish-client/blob/master/assets/Question_Incorrect.jpg" width="350"> |
 |:---:|:---:|:---:|
 | Dashboard | Correct Answer | Incorrect Answer |
 
