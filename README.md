@@ -1,6 +1,6 @@
 <h1 align="center">Spaced Repetition Spanish App</h1>
 
-[Demo Spanish App Here](https://spanish-app-client.herokuapp.com/)
+[Demo Spanish App Here](https://speak-spanish-client.herokuapp.com/dashboard)
 
 ## Summary
 Spanish app is a responsive full-stack application that allows users to learn Spanish through a technique called "Spaced Repetition". As the user answers questions correctly, the algorithm will wait a little longer before presenting that particular question again. The data structure that stores the words is a linked list.
@@ -49,7 +49,7 @@ When presented with a word in Spanish, the user has the option to click on a spe
 ## Project Location
 Both the client and the server are hosted on Heroku as individual projects. The Mongo database is hosted on mLab.
 
-[Spanish App - Server README.md](https://github.com/thinkful-ei23/Spanish-Server-Alex-DavidF/blob/master/README.md)
+[Spanish App - Server README.md](https://github.com/AlexanderPuhl/speak-spanish-server/blob/master/README.md)
 
 ## API Documentation
 [Click to view API documentation](https://documenter.getpostman.com/view/4458639/RzfasXcs)
